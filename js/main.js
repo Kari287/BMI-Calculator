@@ -7,7 +7,12 @@ function results() {
 	if (getBMI <= 18.4) {
 		showResults = "Your BMI is " + getBMI;
 		document.querySelector(".message").style.display = "none";
-		document.getElementById("showUnderweight").innerHTML = "Result : Underweight &#128533";
+		document.getElementById("showUnderweight").innerHTML = "Result : 
+		1. Eat more frequently: 5-6 meals/day
+		2. Incorporate calorie-dense foods: nuts, dried fruits, avocados, granola
+		3. Choose protein-rich foods: lean meats, fish, eggs, dairy, legumes
+		4. Include healthy fats: olive oil, fatty fish, coconut oil
+		5. Whole grains, fruits, and vegetables &#128533";
 	}
 
 	if (getBMI >= 18.5 && getBMI <= 24.9) {
