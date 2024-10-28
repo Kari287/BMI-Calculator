@@ -13,19 +13,19 @@ function results() {
 	if (getBMI >= 18.5 && getBMI <= 24.9) {
 		showResults = "Your BMI is " + getBMI;
 		document.querySelector(".message").style.display = "none";
-		document.getElementById("showNormal").innerHTML = "Result : Healthy Weight &#128512;";
+		document.getElementById("showNormal").innerHTML = "Result :You are in a Healthy Weight &#128512;";
 	}
 
 	if (getBMI >= 25 && getBMI <= 29.9) {
 		showResults = "Your BMI is " + getBMI;
 		document.querySelector(".message").style.display = "none";
-		document.getElementById("showOverweight").innerHTML = "Result : Overweight &#128544";
+		document.getElementById("showOverweight").innerHTML = "Result : Overweight &#128544 Focus on a balanced diet and regular exercise to gradually transition from being overweight to a healthy and normal weight.";
 	}
 
 	if (getBMI >= 30) {
 		showResults = "Your BMI is " + getBMI;
 		document.querySelector(".message").style.display = "none";
-		document.getElementById("showObese").innerHTML = "Result : Obesity &#128545";
+		document.getElementById("showObese").innerHTML = "Result : Obesity &#128545 Gradually incorporate more whole foods and vegetables into your diet while increasing physical activity to transition from obesity to a healthier weight.";
 	}
 
 	if ((weight.length <= 0) || (height.length <= 0)) {
